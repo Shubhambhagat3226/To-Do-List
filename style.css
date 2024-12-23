@@ -41,6 +41,7 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px; 
+    
 }
 input{
     flex: 1;
@@ -49,16 +50,18 @@ input{
     background: transparent;
     padding: 10px;
     font-weight: 14px;
+    min-width: 100px;
 }
 button{
     border: none;
     outline: none;
-    padding: 16px 50px;
+    padding: 15px 10% ;
     background: #ff402b;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+    min-width: 50px;
 }
 
 ul li{
@@ -70,6 +73,9 @@ ul li{
     user-select: none; /* Standard syntax */   
     cursor: pointer;
     position: relative;
+    align-items: center;
+    word-wrap: break-word;
+    padding-right: 42px;
 }
 ul li::before{
     content: '';
